@@ -79,14 +79,40 @@
 
 
 
-<meta name="description" content="深漂，IT狗，程序猿">
-<meta property="og:type" content="website">
-<meta property="og:title" content="H丶R">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta name="description" content="配置Git下载安装完Git后，在*File–&gt;settings–&gt;Version Control下选择Git选项，在Path to Git executable中选择本地安装的git.exe文件，点击Test，成功会弹出Git版本信息，如下注意，下列SSH executable选项中，代表连接选项，通常我们使用简便一些Http的方式  日常开发操作拉取远程仓库代码选择File–&gt;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IDEA配置GIT及日常使用">
+<meta property="og:url" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="H丶R">
-<meta property="og:description" content="深漂，IT狗，程序猿">
+<meta property="og:description" content="配置Git下载安装完Git后，在*File–&gt;settings–&gt;Version Control下选择Git选项，在Path to Git executable中选择本地安装的git.exe文件，点击Test，成功会弹出Git版本信息，如下注意，下列SSH executable选项中，代表连接选项，通常我们使用简便一些Http的方式  日常开发操作拉取远程仓库代码选择File–&gt;">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_c26308fab52f920cbdb18ae96abc9464_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_8ab80fbb32261334d0229da0c1d87ef5_r-1588818627618.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_cd26d5f86124e471c9b9dd4becf83c39_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_1877990939a86213515cd4cf06531b19_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_9185d1fc5abce9c3aad7f7b73ffb33d1_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_ee483ee71c6f11fb6c8bcb615803e7ad_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_1e3740bbb65af2e826fe82486e14237f_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_e263c754cc59cedc06f49314a758aef9_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_019bb5c6eef4d6cd58e32ff0f248c43a_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_1d813e51f902c4f19e0b839f611a7849_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_086a104e15bd701b6bbc55598a4689ea_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_919e7cac07a79a948b539e61a7bb0f80_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_ff7f65ac8a549c9dd53d9028cc2b3ea9_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_2cf20ba910ffca25a5bba6730ccfb1f0_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_87593e3c3fd12850eed0d57e14c44764_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_cc74e07e6d1f05bd345e4dd6d285e7d5_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_a619eb29d83ce18e6b4b2103aac4b7e0_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_c605a03e807c166f2e2ee8c963913cbf_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_d4c0c0dda00e55e49ca4eace8ad4437b_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_94ae29f97acce789b12c1db5a1494542_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_3f33d7523158ba424e39145625b901d1_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_7c89e38a4b9360fc9b55cc1a08951ee2_r.png">
+<meta property="og:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_486ecc885c4d93dd68fe33ce4c43b2ab_r.png">
+<meta property="article:published_time" content="2020-05-07T03:29:58.694Z">
+<meta property="article:modified_time" content="2020-05-07T03:40:53.646Z">
 <meta property="article:author" content="rui.H">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_c26308fab52f920cbdb18ae96abc9464_r.png">
 
 
 
@@ -116,13 +142,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/"/>
+  <link rel="canonical" href="http://yoursite.com/2020/05/07/IDEA配置GIT及日常使用/"/>
 
 
 
 
 
-  <title>归档 | H丶R</title>
+  <title>IDEA配置GIT及日常使用 | H丶R</title>
   
 
 
@@ -141,7 +167,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -269,148 +295,185 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="rui.H">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar_my.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="H丶R">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">IDEA配置GIT及日常使用</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-05-07T11:29:58+08:00">
+                2020-05-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 3 篇日志。 继续努力。
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2020">2020</h1>
-          </div>
-        
-        
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/" itemprop="url">
+          
+            <div class="post-wordcount">
               
-                <span itemprop="name">IDEA配置GIT及日常使用</span>
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  786
+                </span>
               
-            </a>
-        
-      </h2>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-05-07T11:29:58+08:00"
-              content="2020-05-07" >
-          05-07
-        </time>
-      </div>
+              
+                <span class="post-meta-divider">|</span>
+              
 
-    </header>
-  </article>
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2
+                </span>
+              
+            </div>
+          
 
+          
 
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2020/05/07/GIT%E5%85%A5%E9%97%A8%E5%8F%8A%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/" itemprop="url">
-              
-                <span itemprop="name">GIT入门及团队协作</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-05-07T10:00:48+08:00"
-              content="2020-05-07" >
-          05-07
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2020/05/06/%E5%8D%8E%E5%B1%B1%E7%89%88java%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/" itemprop="url">
-              
-                <span itemprop="name">华山版java编程规范</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-05-06T00:00:00+08:00"
-              content="2020-05-06" >
-          05-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <h2 id="配置Git"><a href="#配置Git" class="headerlink" title="配置Git"></a>配置Git</h2><p>下载安装完Git后，在<strong>*File–&gt;settings–&gt;Version Control</strong>下选择Git选项，在<strong><em>Path to Git executable</em></strong>中选择本地安装的git.exe文件，点击Test，成功会弹出Git版本信息，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_c26308fab52f920cbdb18ae96abc9464_r.png" alt="img"><br>注意，下列<strong><em>SSH executable</em></strong>选项中，代表连接选项，通常我们使用简便一些Http的方式</p>
+<p><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_8ab80fbb32261334d0229da0c1d87ef5_r-1588818627618.png" alt="img"></p>
+<h2 id="日常开发操作"><a href="#日常开发操作" class="headerlink" title="日常开发操作"></a>日常开发操作</h2><h3 id="拉取远程仓库代码"><a href="#拉取远程仓库代码" class="headerlink" title="拉取远程仓库代码"></a>拉取远程仓库代码</h3><p>选择<strong><em>File–&gt;New–&gt;Project from Version Control–&gt;Git</em></strong>，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_cd26d5f86124e471c9b9dd4becf83c39_r.png" alt="img"><br>找到远程仓库地址，这里以我的Github为例，其他远程仓库类似，选择项目<strong><em>clone or download</em></strong>,选择http或ssh方式，复制地址，这里和idea中保持一致，选择http<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_1877990939a86213515cd4cf06531b19_r.png" alt="img"><br>然后切换至idea中，点击Test，这里我已经登录保存过，第一次需要填远程仓库的用户名密码，然后选择本地硬盘，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_9185d1fc5abce9c3aad7f7b73ffb33d1_r.png" alt="img"><br>clone，等待片刻，弹出窗口，随便选择一个窗口打开即可，项目拉下来如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_ee483ee71c6f11fb6c8bcb615803e7ad_r.png" alt="img"><br>Idea右下角，代表分支，默认master分支，如下，<strong><em>Local Branches</em></strong>代表本地分支，<strong><em>Remote Branches</em></strong>代表远程分支，<strong><em>New Branch</em></strong>添加新的本地分支<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_1e3740bbb65af2e826fe82486e14237f_r.png" alt="img"></p>
+<h3 id="更新和提交"><a href="#更新和提交" class="headerlink" title="更新和提交"></a>更新和提交</h3><p>新增文件，test01.txt,弹出窗口提示，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_e263c754cc59cedc06f49314a758aef9_r.png" alt="img"><br>该提示代表是否添加至暂存区，等同于git add命令，若选择add后，文件呈绿色，选择cancel则为红色，若此时为添加也可右键点击文件，选择<strong><em>git–&gt;add</em></strong><br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_019bb5c6eef4d6cd58e32ff0f248c43a_r.png" alt="img"><br>工作完成后，选择idea工具栏中Git操作，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_1d813e51f902c4f19e0b839f611a7849_r.png" alt="img"><br>项目目录中绿色新增的部分，为新增文件，下方红色为未添加到暂存区的，选择我们需要提交的文件，双击可查看新增或修改的内容，下方<strong><em>Conmit Message</em></strong>为提交的说明<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_086a104e15bd701b6bbc55598a4689ea_r.png" alt="img"><br>提交本地则选择Commit,提交远程选择<strong><em>Commit And Push</em></strong>，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_919e7cac07a79a948b539e61a7bb0f80_r.png" alt="img"><br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_ff7f65ac8a549c9dd53d9028cc2b3ea9_r.png" alt="img"><br>点击Push后弹出下列提示则成功<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_2cf20ba910ffca25a5bba6730ccfb1f0_r.png" alt="img"></p>
+<h3 id="切换分支及分支合并"><a href="#切换分支及分支合并" class="headerlink" title="切换分支及分支合并"></a>切换分支及分支合并</h3><p>选择右下角分支，切换至dev分支，自动会创建本地分支，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_87593e3c3fd12850eed0d57e14c44764_r.png" alt="img"><br>切换完成后，此时添加test02文件，提交至本地即可，提交完成后，切换至本地master分支，此时项目中没有test02<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_cc74e07e6d1f05bd345e4dd6d285e7d5_r.png" alt="img"><br>左键点击dev分支，选择<strong><em>Merge into Current</em></strong>,如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_a619eb29d83ce18e6b4b2103aac4b7e0_r.png" alt="img"><br>现在看项目中,test02已经出来了，此时test02为白色，若想推送至远程，则需要继续push，右键项目，选择<strong><em>GIT–&gt;Repository–&gt;Push</em></strong><br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_c605a03e807c166f2e2ee8c963913cbf_r.png" alt="img"><br>然后检查需要提交的文件即可。</p>
+<h3 id="解决冲突"><a href="#解决冲突" class="headerlink" title="解决冲突"></a>解决冲突</h3><p>在远程仓库中修改readme.txt模拟他人提交<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_d4c0c0dda00e55e49ca4eace8ad4437b_r.png" alt="img"><br>本地也对readme.txt内容进行修改，添加内容“6666666666”，修改后文件呈蓝色，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_94ae29f97acce789b12c1db5a1494542_r.png" alt="img"><br>若不进行更新直接提交，push时出现以下提示<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_3f33d7523158ba424e39145625b901d1_r.png" alt="img"><br>此时可以选择Cancel，执行Pull操作后再提交远程，也可以选择Merge，弹出Merge操作窗口，如下<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_7c89e38a4b9360fc9b55cc1a08951ee2_r.png" alt="img"><br>右方可以选择，接受你自己的，接受他人的，第三项则手动merge，选择手动Merge后，冲突的内容呈红色，左侧为本地，右侧远程仓库，中间则修改版本根据需要解决冲突即可<br><img src="/2020/05/07/IDEA%E9%85%8D%E7%BD%AEGIT%E5%8F%8A%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8/m_486ecc885c4d93dd68fe33ce4c43b2ab_r.png" alt="img"><br><strong>注：每次提交前都进行Pull操作可避免不必要的麻烦</strong></p>
 
       
-
     </div>
+    
+    
+    
+
+    <div> <div>
+    <div style="text-align:center;color:#bfbfbf;font-size:16px;">
+        <span>-------- 本文结束 </span>
+        <i class="fa fa-paw"></i> 
+        <span> 感谢阅读 --------</span> 
+    </div> 
+</div> </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/05/07/GIT%E5%85%A5%E9%97%A8%E5%8F%8A%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/" rel="next" title="GIT入门及团队协作">
+                <i class="fa fa-chevron-left"></i> GIT入门及团队协作
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -418,6 +481,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -438,8 +505,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -509,6 +585,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#配置Git"><span class="nav-number">1.</span> <span class="nav-text">配置Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#日常开发操作"><span class="nav-number">2.</span> <span class="nav-text">日常开发操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#拉取远程仓库代码"><span class="nav-number">2.1.</span> <span class="nav-text">拉取远程仓库代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#更新和提交"><span class="nav-number">2.2.</span> <span class="nav-text">更新和提交</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#切换分支及分支合并"><span class="nav-number">2.3.</span> <span class="nav-text">切换分支及分支合并</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决冲突"><span class="nav-number">2.4.</span> <span class="nav-text">解决冲突</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -669,6 +761,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
